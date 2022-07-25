@@ -1,5 +1,5 @@
 {
-  "name": "EPAM",
+  "name": "epam",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,12 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "save-dev": "0.0.1-security"
-  },
-  "devDependencies": {
-    "fs-extra": "^10.1.0"
-  }
+  "author": "Baxtiyor",
+  "license": "ISC"
 }
