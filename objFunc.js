@@ -1,11 +1,12 @@
 const car = {
   color: "black",
-  power() {
-    console.log("The Engine Power")
+  engine: "Turbo",
+  power: function () {
+    return console.log(this.engine)
   },
 }
 car.color = "green"
-
+console.log(car.power())
 const warehouse = function (pearsNum, applesNum) {
   return pearsNum + applesNum
 }
@@ -21,12 +22,12 @@ function showGreetings(enterName) {
     console.log("There is no such name")
   }
 }
-console.log(showGreetings("Bxa"))
+// console.log(showGreetings("Bxa"))
 
 function calcArg(arg1, arg2) {
   return typeof arg1 + typeof arg2
 }
-console.log(calcArg(4, 5))
+// console.log(calcArg(4, 5))
 function findNumberPrime(num) {
   let isPrime = true
   if (num === 1) {
@@ -46,4 +47,4 @@ function findNumberPrime(num) {
     }
   }
 }
-findNumberPrime(5)
+// findNumberPrime(5)
