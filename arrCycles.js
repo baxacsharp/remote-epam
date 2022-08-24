@@ -2,9 +2,9 @@
 const movieName = ["Harry Potter", "Collector", "Collected", "Paper building"]
 movieName.forEach((name) => console.log(name))
 //Ex2
-const carManufacturer = ["Elon Musk", "Wolkswagen", "Wolvo", "BMW"]
-carManufacturer.map((man) => man.toString())
-console.log(carManufacturer)
+const carManufacturer = ["Elon Musk", "Wolkswagen", "Wolvo", 5]
+console.log(carManufacturer.map((man) => man.toString()))
+
 //Ex3
 const friends = ["Baxa", "Umid", "Shamshir", "Murod"]
 friends.map((friend) => console.log("Hello " + friend))
